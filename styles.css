@@ -1,2 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-/* Your CSS Code here. */
+.moviePic {
+    width: 300px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.movieDetail {
+    position: relative;
+    top: 10px; /* Adjust as needed */
+    width: 60%; /* Adjust as needed */
+    text-align: center;
+    font-size: 18px;
+}
